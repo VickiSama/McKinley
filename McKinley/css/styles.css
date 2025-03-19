@@ -60,6 +60,7 @@ body {
     text-decoration: none;
     display: inline-block;
     line-height: 0;
+    cursor: pointer;
 }
 
 .menu {
@@ -76,11 +77,19 @@ body {
     list-style: none;
 }
 
+.link span:hover {
+    border-bottom: 1px solid rgb(0, 72, 109);
+}
+
 .menu__link {
     text-decoration: none;
     color: rgb(0, 72, 109);
     font-size: 19px;
     line-height: 35px;
+}
+
+.menu__link:hover {
+    border-bottom: 2px solid rgb(0, 72, 109);
 }
 
 .header__block-two {
@@ -107,6 +116,10 @@ body {
     cursor: pointer;
     box-sizing: border-box;
     width: 234px;
+}
+
+.btn:hover {
+    opacity: 0.9;
 }
 
 .main {
@@ -466,6 +479,10 @@ body {
     margin-bottom: 12px;
 }
 
+.footer__contact-link:hover {
+    opacity: 0.8;
+}
+
 .footer__contact-img {
     vertical-align: middle;
     margin-right: 2px;
@@ -538,5 +555,9 @@ body {
 
 .footer__info-links a:first-child {
     margin-right: 16px;
+}
+
+.footer__info-link:hover {
+    border-bottom: 1px solid rgb(153, 182, 197);
 }
 
